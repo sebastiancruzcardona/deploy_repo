@@ -28,6 +28,6 @@ jobs:
           # Verificamos si el directorio es un repositorio Git
           if [ ! -d "/home/ubuntu/cruz-rodriguez/.git" ]; then
             # Si no es un repositorio Git, clonamos el repositorio
-            git clone https://github.com/STXVXN06/To-do-List.git /home/ubuntu/cruz-rodriguez;
+            git clone https://github.com/sebastiancruzcardona/deploy_repo.git /home/ubuntu/cruz-rodriguez;
           fi
           '
